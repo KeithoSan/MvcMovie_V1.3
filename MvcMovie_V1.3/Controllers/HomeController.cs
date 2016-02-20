@@ -22,7 +22,7 @@ namespace MvcMovie_V1._3.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "The Yay or Nay Crew";
 
             return View();
         }
