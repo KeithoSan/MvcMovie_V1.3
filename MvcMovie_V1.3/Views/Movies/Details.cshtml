@@ -35,6 +35,14 @@
         </dd>
 
         <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+
+        <dt>
             @Html.DisplayNameFor(model => model.Price)
         </dt>
 
@@ -43,6 +51,10 @@
         </dd>
 
     </dl>
+
+    <link href="~/Content/bootstrap-rating.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap-rating/bootstrap-rating.min.js"></script>
+
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
