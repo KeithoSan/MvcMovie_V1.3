@@ -8,10 +8,10 @@ namespace MVCMovieTest
     public class MoviesControllerTest
     {
         [TestMethod]
-        public void TestDetailsView()
+        public void Index()
         {
             MoviesController controller = new MoviesController();
-            var result = controller.Index as ViewResults;
+           ViewResult result = controller.Index as ViewResult;
             Assert.IsNotNull(result);
 
 

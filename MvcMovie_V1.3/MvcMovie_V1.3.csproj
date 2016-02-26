@@ -239,6 +239,8 @@
     <Content Include="Content\BootStrap.css" />
     <Content Include="Content\Defaultbootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Image\movie-genres-comedy-icon.png" />
+    <Content Include="Content\Image\movie-genres-drama-icon2.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
