@@ -49,10 +49,11 @@
         <dd>
             @Html.DisplayFor(model => model.Rating)
         </dd>
-
+        @Html.ActionLink("Review Movie", "Edit", new { id = Model.ID })
     </dl>
 </div>
 <p>
   
     @Html.ActionLink("Back to List", "Index")
+
 </p>

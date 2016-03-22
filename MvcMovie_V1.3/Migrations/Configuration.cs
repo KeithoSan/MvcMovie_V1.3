@@ -9,7 +9,7 @@ namespace MvcMovie_V1._3.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(MvcMovie_V1._3.Models.MovieDBContext context)

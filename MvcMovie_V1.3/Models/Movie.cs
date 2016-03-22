@@ -37,12 +37,13 @@ namespace MvcMovie_V1._3.Models
         [StringLength(5)]
         public string Rating { get; set; }
 
-       
+        public ICollection<MovieReview> Reviews { get; set; }
+
 
     }
 
-    public class MovieDBContext : DbContext
-    {
-        public DbSet<Movie> Movies { get; set; }
-    }
+    //public class MovieDBContext : DbContext
+    //{
+    //    public DbSet<Movie> Movies { get; set; }
+    //}
 }
